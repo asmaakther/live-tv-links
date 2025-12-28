@@ -18,7 +18,9 @@ CHANNELS = [
     "Channel i Live", "ATN News Live", "NTV Bangladesh Live", 
     "Rtv Bangladesh Live", "NEWS24 LIVE", "Desh TV Live", 
     "Independent TV Live", "Channel 24 Live","Al Jazeera English Live",
-    "Vevo Pop Live",# ইংরেজি মিউজিক "National Geographic Wild Live", # বন্যপ্রাণী"T-Series Music Live"# হিন্দি মিউজিক
+    "Vevo Pop Live", # ইংরেজি মিউজিক 
+    "National Geographic Wild Live", # বন্যপ্রাণী
+    "T-Series Music Live" # হিন্দি মিউজিক
     "National Geographic Wild Live", # বন্যপ্রাণী
 ]
 

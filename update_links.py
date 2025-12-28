@@ -13,13 +13,17 @@ CHANNELS = [
 
 def get_live_link(query):
     try:
+        # ইউটিউবে লাইভ সার্চ করার লিঙ্ক
         url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&eventType=live&q={query}&key={API_KEY}"
-        response = requests.get(url).json()
-        if 'items' in response and len(response['items']) > 0:
-            video_id = response['items'][0]['id']['videoId']
+        response = requests.get(url)
+        data = response.json()
+        
+        if 'items' in data and len(data['items']) > 0:
+            video_id = data['items'][0]['id']['videoId']
+            # ব্লগস্পটে চালানোর জন্য এমবেড লিঙ্ক
             return f"https://www.youtube.com/embed/{video_id}?autoplay=1"
         return None
-    except:
+    except Exception as e:
         return None
 
 tv_data = []
@@ -28,6 +32,6 @@ for channel in CHANNELS:
     if link:
         tv_data.append({"name": channel, "url": link})
 
-# links.json ফাইল তৈরি হচ্ছে
+# ফাইলটি সেভ করা
 with open("links.json", "w", encoding="utf-8") as f:
     json.dump(tv_data, f, indent=4)

@@ -32,5 +32,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add links.txt
-          git commit -m "Update live links" || echo "No changes to commit"
-          git push origin main
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update live links" && git push origin main)

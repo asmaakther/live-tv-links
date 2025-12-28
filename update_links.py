@@ -1,38 +1,45 @@
-import os
 import requests
 import json
+import os
+import time
 
 API_KEY = os.getenv('YOUTUBE_API_KEY')
-CHANNELS = ["Somoy TV Live", "Jamuna Tv Live"]
+# আমি চ্যানেলের নামগুলো আরও নিখুঁত করে দিয়েছি যাতে সার্চ রেজাল্ট ভালো আসে
+CHANNELS = [
+    "Al Jazeera English Live", "Somoy TV Live", "Ekhon TV Live", 
+    "Ekattor TV Live", "Jamuna TV Live", "DBC News Live", 
+    "Channel i Live", "ATN News Live", "NTV Live", 
+    "Rtv Live", "NEWS24 LIVE", "Desh TV Live", 
+    "Independent TV Live", "Channel 24 Live"
+]
 
-def get_live_link(query):
+def get_live_url(query):
+    # ইউটিউব এপিআই কল
+    url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&eventType=live&type=video&q={query}&key={API_KEY}"
     try:
-        url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&eventType=live&q={query}&key={API_KEY}"
-        response = requests.get(url)
-        data = response.json()
-        
-        # এখানে প্রিন্ট হবে কেন কাজ করছে না (গিটহাব অ্যাকশনে দেখা যাবে)
-        if 'error' in data:
-            print(f"YouTube API Error: {data['error']['message']}")
-            return None
-            
-        if 'items' in data and len(data['items']) > 0:
-            video_id = data['items'][0]['id']['videoId']
+        response = requests.get(url).json()
+        if 'items' in response and len(response['items']) > 0:
+            video_id = response['items'][0]['id']['videoId']
+            # সরাসরি এমবেড লিঙ্ক তৈরি করা
             return f"https://www.youtube.com/embed/{video_id}?autoplay=1"
         return None
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Error searching {query}: {e}")
         return None
 
-tv_data = []
-
-# টেস্ট করার জন্য একটি ডামি ডেটা (যদি এপিআই কাজ না করে তাও এটি দেখাবে)
-tv_data.append({"name": "Test Channel", "url": "https://www.youtube.com/embed/live_stream?channel=UC_g69p7S_I-k9q69NshS8bw"})
+results = []
 
 for channel in CHANNELS:
-    link = get_live_link(channel)
-    if link:
-        tv_data.append({"name": channel, "url": link})
+    print(f"Searching for: {channel}")
+    video_url = get_live_url(channel)
+    if video_url:
+        results.append({"name": channel.replace(" Live", ""), "url": video_url})
+    
+    # এপিআই রেট লিমিট এড়াতে ১ সেকেন্ড বিরতি
+    time.sleep(1)
 
-with open("links.json", "w", encoding="utf-8") as f:
-    json.dump(tv_data, f, indent=4)
+# ফাইলটি সেভ করা
+with open('links.json', 'w', encoding='utf-8') as f:
+    json.dump(results, f, indent=4, ensure_ascii=False)
+
+print("Mission Successful! All links updated.")

@@ -1,14 +1,58 @@
 [
     {
-        "name": "Test Channel",
-        "url": "https://www.youtube.com/embed/live_stream?channel=UC_g69p7S_I-k9q69NshS8bw"
+        "name": "Al Jazeera English",
+        "url": "https://www.youtube.com/embed/gCNeDWCI0vo?autoplay=1"
     },
     {
-        "name": "Somoy TV Live",
-        "url": "https://www.youtube.com/embed/gjHIEvvXdzM?autoplay=1"
+        "name": "Somoy TV",
+        "url": "https://www.youtube.com/embed/jlTenVhmbyo?autoplay=1"
     },
     {
-        "name": "Jamuna Tv Live",
-        "url": "https://www.youtube.com/embed/myjhkxlEvVE?autoplay=1"
+        "name": "Ekhon TV",
+        "url": "https://www.youtube.com/embed/CLYNApL36eo?autoplay=1"
+    },
+    {
+        "name": "Ekattor TV",
+        "url": "https://www.youtube.com/embed/jlTenVhmbyo?autoplay=1"
+    },
+    {
+        "name": "Jamuna TV",
+        "url": "https://www.youtube.com/embed/N2p__HdTySo?autoplay=1"
+    },
+    {
+        "name": "DBC News",
+        "url": "https://www.youtube.com/embed/iqv182RpFsY?autoplay=1"
+    },
+    {
+        "name": "Channel i",
+        "url": "https://www.youtube.com/embed/ZV5koNVtREs?autoplay=1"
+    },
+    {
+        "name": "ATN News",
+        "url": "https://www.youtube.com/embed/Ae6DKw-Vsbk?autoplay=1"
+    },
+    {
+        "name": "NTV",
+        "url": "https://www.youtube.com/embed/eKms-iBKO4s?autoplay=1"
+    },
+    {
+        "name": "Rtv",
+        "url": "https://www.youtube.com/embed/k85O6bvABIE?autoplay=1"
+    },
+    {
+        "name": "NEWS24 LIVE",
+        "url": "https://www.youtube.com/embed/wxMQdGkDZUI?autoplay=1"
+    },
+    {
+        "name": "Desh TV",
+        "url": "https://www.youtube.com/embed/qTclhr0Q1i0?autoplay=1"
+    },
+    {
+        "name": "Independent TV",
+        "url": "https://www.youtube.com/embed/NLevjc9ChMk?autoplay=1"
+    },
+    {
+        "name": "Channel 24",
+        "url": "https://www.youtube.com/embed/qTclhr0Q1i0?autoplay=1"
     }
 ]

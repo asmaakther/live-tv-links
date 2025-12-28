@@ -28,6 +28,6 @@ for channel in CHANNELS:
     if link:
         tv_data.append({"name": channel, "url": link})
 
-# links.json ফাইল তৈরি
+# links.json ফাইল তৈরি হচ্ছে
 with open("links.json", "w", encoding="utf-8") as f:
     json.dump(tv_data, f, indent=4)

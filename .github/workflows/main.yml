@@ -9,28 +9,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # এটি গিটহাবকে ফাইল লেখার অনুমতি দেয়
+      contents: write
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Install dependencies
-      run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-    - name: Run script
-      env:
-        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-      run: python update_links.py
+      - name: Run script
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python update_links.py
 
-   - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add links.txt
-        git commit -m "Update links.txt with live streams" || echo "No changes to commit"
-        git push origin main
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add links.txt
+          git commit -m "Update live links" || echo "No changes to commit"
+          git push origin main

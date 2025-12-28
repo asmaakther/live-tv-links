@@ -10,12 +10,16 @@ API_KEYS = [
 ]
 FILE_NAME = 'links.json'
 
+# চ্যানেল লিস্ট যা ইউটিউব এপিআই সঠিকভাবে খুঁজে পাবে
 CHANNELS = [
-    "Al Jazeera English Live", "Somoy TV Live", "Ekhon TV Live", 
+    # বাংলাদেশী নিউজ ও বিনোদন (দেশ নিশ্চিত করার জন্য Bangladesh যুক্ত করা হয়েছে)
+     "Somoy TV Live", "Ekhon TV Live", 
     "Ekattor TV Live", "Jamuna TV Live", "DBC News Live", 
-    "Channel i Live", "ATN News Live", "NTV Live", 
-    "Rtv Live", "NEWS24 LIVE", "Desh TV Live", 
-    "Independent TV Live", "Channel 24 Live"
+    "Channel i Live", "ATN News Live", "NTV Bangladesh Live", 
+    "Rtv Bangladesh Live", "NEWS24 LIVE", "Desh TV Live", 
+    "Independent TV Live", "Channel 24 Live","Al Jazeera English Live",
+    "Vevo Pop Live",# ইংরেজি মিউজিক "National Geographic Wild Live", # বন্যপ্রাণী"T-Series Music Live"# হিন্দি মিউজিক
+    "National Geographic Wild Live", # বন্যপ্রাণী
 ]
 
 def get_live_url(query, keys):

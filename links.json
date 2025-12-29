@@ -1,59 +1,59 @@
 [
     {
         "name": "Somoy TV",
-        "url": "https://www.youtube.com/embed/rjUj3l7kQcE?autoplay=1"
+        "url": "https://www.youtube.com/embed/P9daAWZ6okc?autoplay=1"
     },
     {
         "name": "Ekhon TV",
-        "url": "https://www.youtube.com/embed/HHZ99NlQEXI?autoplay=1"
+        "url": "https://www.youtube.com/embed/EdteMXOIEOE?autoplay=1"
     },
     {
         "name": "Ekattor TV",
-        "url": "https://www.youtube.com/embed/g-qQesXsxoM?autoplay=1"
+        "url": "https://www.youtube.com/embed/o4F4GGxmd1c?autoplay=1"
     },
     {
         "name": "Jamuna TV",
-        "url": "https://www.youtube.com/embed/AVM_--VKDAQ?autoplay=1"
+        "url": "https://www.youtube.com/embed/EdteMXOIEOE?autoplay=1"
     },
     {
         "name": "DBC News",
-        "url": "https://www.youtube.com/embed/iqv182RpFsY?autoplay=1"
+        "url": "https://www.youtube.com/embed/esFWFjW0PoY?autoplay=1"
     },
     {
         "name": "Channel i",
-        "url": "https://www.youtube.com/embed/fYUvcjB5fR4?autoplay=1"
+        "url": "https://www.youtube.com/embed/EdteMXOIEOE?autoplay=1"
     },
     {
         "name": "ATN News",
-        "url": "https://www.youtube.com/embed/x6aE9y1VmH8?autoplay=1"
+        "url": "https://www.youtube.com/embed/P9daAWZ6okc?autoplay=1"
     },
     {
         "name": "NTV Bangladesh",
-        "url": "https://www.youtube.com/embed/rjUj3l7kQcE?autoplay=1"
+        "url": "https://www.youtube.com/embed/5nsi6WxRx6k?autoplay=1"
     },
     {
         "name": "Rtv Bangladesh",
-        "url": "https://www.youtube.com/embed/SZRZOeNaQew?autoplay=1"
+        "url": "https://www.youtube.com/embed/J7Si70AiihQ?autoplay=1"
     },
     {
-        "name": "NEWS24 LIVE",
-        "url": "https://www.youtube.com/embed/IocBeKFoL64?autoplay=1"
-    },
-    {
-        "name": "Desh TV",
+        "name": "NEWS24 Bangladesh LIVE",
         "url": "https://www.youtube.com/embed/rjUj3l7kQcE?autoplay=1"
     },
     {
+        "name": "Desh TV",
+        "url": "https://www.youtube.com/embed/DLIolSHhkkw?autoplay=1"
+    },
+    {
         "name": "Independent TV",
-        "url": "https://www.youtube.com/embed/x7clHa6v7jY?autoplay=1"
+        "url": "https://www.youtube.com/embed/2sDCiHVkuZA?autoplay=1"
     },
     {
         "name": "Channel 24",
-        "url": "https://www.youtube.com/embed/AVM_--VKDAQ?autoplay=1"
+        "url": "https://www.youtube.com/embed/DLIolSHhkkw?autoplay=1"
     },
     {
         "name": "Al Jazeera English",
-        "url": "https://www.youtube.com/embed/gCNeDWCI0vo?autoplay=1"
+        "url": "https://www.youtube.com/embed/NG_pv2wlOzc?autoplay=1"
     },
     {
         "name": "Vevo Pop",
@@ -61,6 +61,10 @@
     },
     {
         "name": "National Geographic Wild",
-        "url": "https://www.youtube.com/embed/THooYCltViI?autoplay=1"
+        "url": "https://www.youtube.com/embed/MiQe9ob9aDc?autoplay=1"
+    },
+    {
+        "name": "T-Series Music",
+        "url": "https://www.youtube.com/embed/yaItPAK38io?autoplay=1"
     }
 ]

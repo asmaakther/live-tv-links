@@ -25,10 +25,16 @@ CHANNELS_MAP = {
     "INDEPENDENT": "Independent TV Live ইন্ডিপেন্ডেন্ট টিভি লাইভ",
     "CHANNEL 24": "Channel 24 Live চ্যানেল ২৪ লাইভ",
     "AL JAZEERA": "Al Jazeera English Live",
-    "VEVO LIVE": "Vevo Pop Live",
-    "GEOGRAPHIC": "National Geographic Wild Live",
-    "T MUSIC": "T-Series Music Live"
+    "ENG MUSIC": "Vevo Pop Live",
+    "WILD LIVE": "National Geographic Wild Live",
+    "SOUTH MOVIES": "Goldmines Movies Live 24/7 South Indian Hindi Dubbed",
+    "HINDI MOVIES": "Bollywood Movies Live Streaming Free",
+    "BANGLA MOVIES": "Bangla Movie Live Streaming 24/7",
+    "HINDI MUSIC": "T-Series Music Live Hindi Songs 24/7",
+    "9XM MUSIC": "9XM Live Bollywood Music"
 }
+   
+
 
 def get_live_url(query, keys):
     for key in keys:

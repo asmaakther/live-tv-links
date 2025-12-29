@@ -5,11 +5,11 @@
     },
     {
         "name": "EKHON TV",
-        "url": "https://www.youtube.com/embed/EdteMXOIEOE?autoplay=1"
+        "url": "https://www.youtube.com/embed/6Ec7bnQVO44?autoplay=1"
     },
     {
         "name": "EKATTOR TV",
-        "url": "https://www.youtube.com/embed/rjUj3l7kQcE?autoplay=1"
+        "url": "https://www.youtube.com/embed/fCCt0JchgHM?autoplay=1"
     },
     {
         "name": "JAMUNA TV",
@@ -17,7 +17,11 @@
     },
     {
         "name": "CHANNEL I",
-        "url": "https://www.youtube.com/embed/J7Si70AiihQ?autoplay=1"
+        "url": "https://www.youtube.com/embed/DLIolSHhkkw?autoplay=1"
+    },
+    {
+        "name": "ATN NEWS",
+        "url": "https://www.youtube.com/embed/-sRxta4SRH8?autoplay=1"
     },
     {
         "name": "NTV LIVE",
@@ -33,7 +37,7 @@
     },
     {
         "name": "INDEPENDENT",
-        "url": "https://www.youtube.com/embed/2sDCiHVkuZA?autoplay=1"
+        "url": "https://www.youtube.com/embed/sCcFmP19GtQ?autoplay=1"
     },
     {
         "name": "CHANNEL 24",
@@ -41,18 +45,30 @@
     },
     {
         "name": "AL JAZEERA",
-        "url": "https://www.youtube.com/embed/gCNeDWCI0vo?autoplay=1"
+        "url": "https://www.youtube.com/embed/bNyUyrR0PHo?autoplay=1"
     },
     {
-        "name": "VEVO LIVE",
+        "name": "ENG MUSIC",
         "url": "https://www.youtube.com/embed/obJbLSDsBAY?autoplay=1"
     },
     {
-        "name": "GEOGRAPHIC",
+        "name": "WILD LIVE",
         "url": "https://www.youtube.com/embed/THooYCltViI?autoplay=1"
     },
     {
-        "name": "T MUSIC",
-        "url": "https://www.youtube.com/embed/0bhFagWP_W0?autoplay=1"
+        "name": "HINDI MOVIES",
+        "url": "https://www.youtube.com/embed/sh4N79JlDRo?autoplay=1"
+    },
+    {
+        "name": "BANGLA MOVIES",
+        "url": "https://www.youtube.com/embed/daqB3i9WYIY?autoplay=1"
+    },
+    {
+        "name": "HINDI MUSIC",
+        "url": "https://www.youtube.com/embed/QSilTxGfKuM?autoplay=1"
+    },
+    {
+        "name": "9XM MUSIC",
+        "url": "https://www.youtube.com/embed/RJwIG7LpOMk?autoplay=1"
     }
 ]

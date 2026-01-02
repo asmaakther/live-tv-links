@@ -1,7 +1,7 @@
 [
     {
         "name": "SOMOY TV",
-        "url": "https://www.youtube.com/embed/esFWFjW0PoY?autoplay=1"
+        "url": "https://www.youtube.com/embed/vsZ4RjqjaJE?autoplay=1"
     },
     {
         "name": "EKHON TV",
@@ -37,15 +37,15 @@
     },
     {
         "name": "DESH TV",
-        "url": "https://www.youtube.com/embed/esFWFjW0PoY?autoplay=1"
-    },
-    {
-        "name": "INDEPENDENT",
         "url": "https://www.youtube.com/embed/vsZ4RjqjaJE?autoplay=1"
     },
     {
+        "name": "INDEPENDENT",
+        "url": "https://www.youtube.com/embed/RjcglEXDkCY?autoplay=1"
+    },
+    {
         "name": "CHANNEL 24",
-        "url": "https://www.youtube.com/embed/esFWFjW0PoY?autoplay=1"
+        "url": "https://www.youtube.com/embed/DydgfwEf2RI?autoplay=1"
     },
     {
         "name": "AL JAZEERA",

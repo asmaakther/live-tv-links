@@ -21,11 +21,11 @@
     },
     {
         "name": "CHANNEL I",
-        "url": "https://www.youtube.com/embed/x9Zk_oNU6Aw?autoplay=1"
+        "url": "https://www.youtube.com/embed/_3JJwBLDjow?autoplay=1"
     },
     {
         "name": "ATN NEWS",
-        "url": "https://www.youtube.com/embed/rjUj3l7kQcE?autoplay=1"
+        "url": "https://www.youtube.com/embed/XDnfNG98PFc?autoplay=1"
     },
     {
         "name": "NTV LIVE",
@@ -36,16 +36,20 @@
         "url": "https://www.youtube.com/embed/JC4L_y0VBvU?autoplay=1"
     },
     {
+        "name": "NEWS24 TV",
+        "url": "https://www.youtube.com/embed/oKCwSVDilN8?autoplay=1"
+    },
+    {
         "name": "DESH TV",
-        "url": "https://www.youtube.com/embed/yN8zkkF-n3w?autoplay=1"
+        "url": "https://www.youtube.com/embed/eKWToJkf5s8?autoplay=1"
     },
     {
         "name": "INDEPENDENT",
-        "url": "https://www.youtube.com/embed/FDKHZplNb70?autoplay=1"
+        "url": "https://www.youtube.com/embed/MC10wHkt8K8?autoplay=1"
     },
     {
         "name": "CHANNEL 24",
-        "url": "https://www.youtube.com/embed/yN8zkkF-n3w?autoplay=1"
+        "url": "https://www.youtube.com/embed/oKCwSVDilN8?autoplay=1"
     },
     {
         "name": "AL JAZEERA",
@@ -57,7 +61,7 @@
     },
     {
         "name": "WILD LIVE",
-        "url": "https://www.youtube.com/embed/THooYCltViI?autoplay=1"
+        "url": "https://www.youtube.com/embed/MiQe9ob9aDc?autoplay=1"
     },
     {
         "name": "HINDI MOVIES",
@@ -73,6 +77,6 @@
     },
     {
         "name": "9XM MUSIC",
-        "url": "https://www.youtube.com/embed/RJwIG7LpOMk?autoplay=1"
+        "url": "https://www.youtube.com/embed/GIYzZb1nIMI?autoplay=1"
     }
 ]

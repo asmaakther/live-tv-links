@@ -18,9 +18,9 @@ CHANNELS_MAP = {
     "DBC NEWS": "DBC News Live ডিবিসি নিউজ লাইভ",
     "CHANNEL I": "Channel i Live চ্যানেল আই লাইভ",
     "ATN NEWS": "ATN News Live এটিএন নিউজ লাইভ",
-    "NTV LIVE": "NTV Bangladesh Live এনটিভি লাইভ",
-    "RTV LIVE": "Rtv Bangladesh Live আরটিভি লাইভ",
-    "NEWS24 TV": "NEWS24 Bangladesh LIVE নিউজ২৪ লাইভ",
+    "NTV BANGLA": "NTV Bangladesh Live এনটিভি লাইভ",
+    "RTV BANGLA": "Rtv Bangladesh Live আরটিভি লাইভ",
+    "NEWS24 BANGLA": "NEWS24 Bangladesh LIVE নিউজ২৪ লাইভ",
     "DESH TV": "Desh TV Live দেশ টিভি লাইভ",
     "INDEPENDENT": "Independent TV Live ইন্ডিপেন্ডেন্ট টিভি লাইভ",
     "CHANNEL 24": "Channel 24 Live চ্যানেল ২৪ লাইভ",
@@ -29,7 +29,7 @@ CHANNELS_MAP = {
     "WILD LIVE": "National Geographic Wild Live",
     "SOUTH MOVIES": "Goldmines Movies Live 24/7 South Indian Hindi Dubbed",
     "HINDI MOVIES": "Bollywood Movies Live Streaming Free",
-    "BANGLA MOVIES": "Bangla Movie Live Streaming 24/7",
+    "ANIMALLS": "Bangla Movie Live Streaming 24/7",
     "HINDI MUSIC": "T-Series Music Live Hindi Songs 24/7",
     "9XM MUSIC": "9XM Live Bollywood Music"
 }

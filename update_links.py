@@ -31,6 +31,7 @@ CHANNELS_MAP = {
     "HINDI MOVIES": "Bollywood Movies Live Streaming Free",
     "ANIMALLS": "Bangla Movie Live Streaming 24/7",
     "HINDI MUSIC": "T-Series Music Live Hindi Songs 24/7",
+    "ZEE 24 BANGLA": "zee 24 bangla Live",
     "9XM MUSIC": "9XM Live Bollywood Music"
 }
    

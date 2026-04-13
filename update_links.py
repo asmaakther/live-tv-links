@@ -24,17 +24,18 @@ CHANNELS_MAP = {
     "DESH TV": "Desh TV Live দেশ টিভি লাইভ",
     "INDEPENDENT": "Independent TV Live ইন্ডিপেন্ডেন্ট টিভি লাইভ",
     "CHANNEL 24": "Channel 24 Live চ্যানেল ২৪ লাইভ",
+    "ZEE 24 BANGLA": "zee 24 bangla Live",
     "AL JAZEERA": "Al Jazeera English Live",
     "ENG MUSIC": "Vevo Pop Live",
     "WILD LIVE": "National Geographic Wild Live",
+    "ANIMALLS": "Discovery Live",
     "SOUTH MOVIES": "South full Movies Hindi Dubbed",
     "HINDI MOVIES": "Bollywood Movies Live Streaming Free",
-    "ANIMALLS": "Discovery Live",
+    "BANGLA MOVIES": "Bangla new full movie latest",
     "CARTOON": "cartoons Live 24/7",
+    "TomJerry": "Tom and Jerry Live 24/7",
     "HINDI MUSIC": "Hind Music Live Hindi Songs 24/7",
-    "ZEE 24 BANGLA": "zee 24 bangla Live",
-    "9XM MUSIC": "9XM Live Bollywood Music",
-    "BANGLA MOVIES": "Bangla new full movie latest"
+    "9XM MUSIC": "9XM Live Bollywood Music"
 }
    
 
